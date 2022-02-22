@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(to right bottom, #b80f0a 16.62%, #fffafa 88.61%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+}
+
+.imgHeader {
+  height: 100px;
+  width: 100px;
+}
+
+.navHeader {
+  display: flex;
+  gap: 32px;
+}
+
+.itemNavHeader {
+  font: bold 20px "Marvel", sans-serif;
+  color: #fff2ff;
+}
+
+.main {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2ff;
+}
+
+.mainSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.descriptionMainSection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.titleDescriptionMainSection {
+  font: bold 80px "Marvel", sans-serif;
+  color: #fff2ff;
+}
+
+.subtitleDescriptionMainSection {
+  font: italic 24px "Marvel", sans-serif;
+  color: #fff2ff;
+}
+
+.buttonDescriptionMainSection {
+  background-color: #fff2ff;
+  width: 180px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font: bold 24px "Marvel", sans-serif;
+  color: #363636;
+}
+
+.buttonDescriptionMainSection:hover {
+  background-color: rgba(165, 25, 25, 0.719);
+  transition: 0.5s;
+  color: #fff2ff;
+}
+
+.mainImg {
+  height: 430px;
+}
+
+.descriptionSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.titleDescriptionSection {
+  border-top: 0.4px solid #fff2ff;
+  padding-top: 48px;
+  font: bold 24px "Marvel", sans-serif;
+  color: #fff2ff;
+  margin-bottom: 16px;
+}
+
+.pDescriptionSection {
+  font: bold 18px "Marvel", sans-serif;
+  color: #fff2ff;
+}
+
+.footer {
+  padding: 32px;
+  border-top: 0.4px solid #fff2ff;
+}
+
+.footerImg {
+  display: block;
+  margin: 0 auto;
+}
