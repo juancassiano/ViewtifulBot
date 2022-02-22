@@ -98,9 +98,10 @@ body {
   margin-bottom: 16px;
 }
 
-.pDescriptionSection {
+.listDescriptionSection {
   font: bold 18px "Marvel", sans-serif;
   color: #fff2ff;
+  line-height: 40px;
 }
 
 .footer {
