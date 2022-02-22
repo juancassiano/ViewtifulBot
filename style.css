@@ -52,12 +52,12 @@ body {
 }
 
 .titleDescriptionMainSection {
-  font: bold 80px "Marvel", sans-serif;
+  font: bold 96px "Marvel", sans-serif;
   color: #fff2ff;
 }
 
 .subtitleDescriptionMainSection {
-  font: italic 24px "Marvel", sans-serif;
+  font: italic 36px "Marvel", sans-serif;
   color: #fff2ff;
 }
 
@@ -93,15 +93,14 @@ body {
 .titleDescriptionSection {
   border-top: 0.4px solid #fff2ff;
   padding-top: 48px;
-  font: bold 24px "Marvel", sans-serif;
+  font: bold 48px "Marvel", sans-serif;
   color: #fff2ff;
   margin-bottom: 16px;
 }
 
 .listDescriptionSection {
-  font: bold 18px "Marvel", sans-serif;
+  font: bold 26px "Marvel", sans-serif;
   color: #fff2ff;
-  line-height: 40px;
 }
 
 .footer {
